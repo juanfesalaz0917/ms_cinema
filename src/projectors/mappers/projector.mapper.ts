@@ -21,7 +21,7 @@ export class ProjectorMapper {
     if (dto.high !== undefined) entity.high = dto.high;
     if (dto.width !== undefined) entity.width = dto.width;
     return entity;
-  }
+  } // sem utiliza en el moento de actualizar en el crud alguna entidad para señalizar cual atributo se le asigna a cual
 
   static toResponseDto(entity: Projector): ProjectorResponseDto {
     return {
